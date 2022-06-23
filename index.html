@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMANGAAT!!!</title>
+    <link rel="icon" href="Gambar/20220622_195525_0000.png" type="image">
+
+
+    <style>
+        .badan{
+            background-color:#2A363B  ;
+        }
+
+        .kepala{
+            background-color: #FECEAB ;
+            text-align: center;
+            margin-top: 40px;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 15px;
+            border-radius: 50px 50px;
+        }
+
+        .salam {
+            font-size: 40px;
+            font-family: cursive;
+        }
+
+        .isi_salam {
+            font-size: 25px;
+            font-family: cursive;
+        }
+
+        .segitiga_bubblechat {
+	        width: 0;
+	        height: 0;
+	        border-left:25px solid transparent;
+	        border-right: 70px solid transparent;
+	        border-top: 50px solid #FECEAB;
+            margin-left: 80px;
+        }
+
+        .tokoh_kepala{
+            margin-top: 20px;
+            margin-left: 20px;
+            height: 200px;
+             width: 300px;
+             background-color: rgb(212, 177, 131);
+            border-radius: 125px;
+            left: 0;
+         }
+
+         .tokoh_mata1{
+            height: 30px;
+            width: 30px;
+            background-color: black;
+            border-radius: 50%;
+            position: relative;
+            top: 50px;
+            left: 70px;
+            display: inline-block;
+            animation-name: kedip1;
+            animation-duration: 0.3s;
+            animation-iteration-count: infinite;
+            animation-delay:1s ;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+         }
+
+         .tokoh_mata2{
+            height: 30px;
+            width: 30px;
+            background-color: black;
+            border-radius: 50%;
+            position: relative;
+            top: 50px;
+            left: 160px;
+            display: inline-block;
+            animation-name: kedip2;
+            animation-duration: 0.3s;
+            animation-iteration-count: infinite;
+            animation-delay:1s ;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+         }
+
+         @keyframes kedip2{
+
+            0% {background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            3.75% {background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            10% {background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            16.25% {background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            22.5% {background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+
+            28.75% {background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            35% {background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            41.25% {background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            47.5% {background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            53.75%{background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            60%{background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            62.5%{background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            68.75%{background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            75%{background: linear-gradient(
+                to bottom,
+                black 0%,
+                black 25%,
+                black 25%,
+                black 100%
+            );}
+
+            81.25%{background: linear-gradient(
+                to bottom,
+                #feceab 0%,
+                #feceab 25%,
+                black 25%,
+                black 100%
+            ); }
+
+            87.5%{background: linear-gradient(
+                to bottom, 
+                #feceab 0%,
+                #feceab 50%,
+                black 50%,
+                black 100%
+            ); }
+
+            93.75%{
+                background: linear-gradient(
+                    to bottom,
+                    #feceab 0%,
+                    #feceab 75%,
+                    black 75%,
+                    black 100%
+                );
+            }
+
+            100%{
+                background: linear-gradient(
+                    to bottom,
+                    #feceab 0%,
+                    #feceab 25%,
+                    #feceab 25%,
+                    #feceab 100%
+                );
+            }
+         }
+        
+         @keyframes kedip1{
+
+0% {background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+3.75% {background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+10% {background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+16.25% {background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+22.5% {background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+
+28.75% {background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+35% {background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+41.25% {background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+47.5% {background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+53.75%{background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+60%{background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+62.5%{background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+68.75%{background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+75%{background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 25%,
+    black 25%,
+    black 100%
+);}
+
+81.25%{background: linear-gradient(
+    to bottom,
+    #feceab 0%,
+    #feceab 25%,
+    black 25%,
+    black 100%
+); }
+
+87.5%{background: linear-gradient(
+    to bottom, 
+    #feceab 0%,
+    #feceab 50%,
+    black 50%,
+    black 100%
+); }
+
+93.75%{
+    background: linear-gradient(
+        to bottom,
+        #feceab 0%,
+        #feceab 75%,
+        black 75%,
+        black 100%
+    );
+}
+
+100%{
+    background: linear-gradient(
+        to bottom,
+        #feceab 0%,
+        #feceab 25%,
+        #feceab 25%,
+        #feceab 100%
+    );
+}
+}
+        
+    </style>
+
+
+</head>
+
+<!-- batasbatasbatasbatasbatasbatasbatasbatasbatasbatasbatasbatasbatasbatasbatasbatasbatasbatasbatasbatas-->
+
+
+<body class="badan">
+    <div class="kepala">
+        <div class="salam">
+            Hallooo :))
+        </div>
+
+        <br>
+
+        <div class="isi_salam">
+            Pertama-tama aku mau tau gimana perasaan kamu sekarang?
+        </div>
+
+    </div>
+
+    <div>
+        <div class="segitiga_bubblechat"> 
+        </div>
+    </div>
+
+    <div class="gambar_tokoh">
+        <div class="tokoh_kepala">
+            <div class="tokoh_mata1">
+            </div>
+            <div class="tokoh_mata2">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
